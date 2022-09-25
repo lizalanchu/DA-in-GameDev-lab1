@@ -43,28 +43,13 @@
 - Произвести подготовку данных для работы с алгоритмом линейной регрессии. 10 видов данных были установлены случайным образом, и данные находились в линейной зависимости. Данные преобразуются в формат массива, чтобы их можно было вычислить напрямую при использовании умножения и сложения.
 ![2022-09-25_13-57-29](https://user-images.githubusercontent.com/81166835/192153967-49e1a9d2-e9de-4bec-9d06-95aa5927ff9b.png)
 
-
-```py
-
-In [ ]:
-#Import the required modules, numpy for calculation, and Matplotlib for drawing
-import numpy as np
-import matplotlib.pyplot as plt
-#This code is for jupyter Notebook only
-%matplotlib inline
-
-# define data, and change list to array
-x = [3,21,22,34,54,34,55,67,89,99]
-x = np.array(x)
-y = [2,22,24,65,79,82,55,130,150,199]
-y = np.array(y)
-
-#Show the effect of a scatter plot
-plt.scatter(x,y)
-
-```
-
 - Определите связанные функции. Функция модели: определяет модель линейной регрессии wx+b. Функция потерь: функция потерь среднеквадратичной ошибки. Функция оптимизации: метод градиентного спуска для нахождения частных производных w и b.
+![2022-09-25_15-36-22](https://user-images.githubusercontent.com/81166835/192154492-e31e66b1-3b30-40af-a079-76ab5ba0279a.png)
+![2022-09-25_15-36-27](https://user-images.githubusercontent.com/81166835/192154510-491799fb-023f-4c5a-a4ed-57b75fb1cc50.png)
+![2022-09-25_15-36-35](https://user-images.githubusercontent.com/81166835/192154522-ad5d4153-fc79-449c-9a88-50c84ae377af.png)
+- Начать итерацию
+  - Шаг 1. Инициализация и модель итеративной оптимизации
+
 
 
 ## Задание 2
